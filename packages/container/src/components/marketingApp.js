@@ -17,6 +17,7 @@ export default () => {
         }
       },
     });
+    console.log('hello from container markting')
 
     history.listen(onParentNavigate);
   }, []);
