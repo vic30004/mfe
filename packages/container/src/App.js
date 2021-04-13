@@ -28,6 +28,7 @@ export default () => {
     }
   }, [isSignedIn]);
 
+console.log('hello')
   return (
     <Router history={history}>
       <StylesProvider generateClassName={generateClassName}>
